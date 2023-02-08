@@ -3,8 +3,11 @@
     font-family: 'Rajdhani', sans-serif;
 }
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     color: #e2e2e2;
+}
+body{
+    background-color: rgb(29, 14, 14);
 }
 .btna {
     box-sizing: border-box;
@@ -26,14 +29,20 @@
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    border-color: #e94242;
+    border-color: #bc3535;
     color: #fff;
-    box-shadow: 0 0 40px 40px  #e94242 inset, 0 0 0 0  #e94242;
+    box-shadow: 0 0 40px 40px  #bc3535 inset, 0 0 0 0 #bc3535;
     transition: all 150ms ease-in-out;
 }
   .btna:hover {
-    box-shadow: 0 0 10px 0  #e94242 inset, 0 0 10px 4px #e94242 ;
+    box-shadow: 0 0 10px 0 #bc3535 inset, 0 0 10px 4px #bc3535;
 }
 #home{
     background-image: url("../Images/bg.jpg");
+}
+.btna{
+    margin: 10px;
+}
+.lead{
+    margin: 5px;
 }
