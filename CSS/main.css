@@ -49,6 +49,9 @@ body{
 #home{
     background-image: url("../Images/bg.jpg");
 }
+.displayy{
+    font-size: 100px;
+}
 .btna{
     margin: 10px;
 }
@@ -64,4 +67,20 @@ body{
   transform: rotate(135deg);
   margin-right: 0.5em;
   margin-left: 1.0em;
+}
+#players{
+    width: 600px;
+}
+@media only screen and (max-width: 750px) {
+    #players{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 512px) {
+    .gamepic{
+        height: 200px;
+    }
+    .displayy{
+        font-size: 60px;
+    }
 }
