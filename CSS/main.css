@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rajdhani:wght@600&display=swap');
 .display-2{
     font-family: 'Rajdhani', sans-serif;
+    
 }
 *{
     font-family: 'Poppins', sans-serif !important;
     color: #e2e2e2;
+    margin: 0%;
+    padding: 0%;
+    /* overflow-x: hidden; */
 }
 body{
     background-color: rgb(29, 14, 14);
+    width: 100vw;
+    overflow-x: hidden;
+}
+.contents{
+    text-align: center;
 }
 .btna {
     box-sizing: border-box;
@@ -45,4 +54,14 @@ body{
 }
 .lead{
     margin: 5px;
+}
+.arrow-down{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-right: 0.2em solid rgb(151, 151, 151);
+  border-top: 0.2em solid  rgb(151, 151, 151);
+  transform: rotate(135deg);
+  margin-right: 0.5em;
+  margin-left: 1.0em;
 }
